@@ -1,0 +1,6 @@
+# Graphics
+vendor/lib/hw/gralloc.rpi.so
+vendor/lib/hw/hwcomposer.rpi.so
+
+# Widevine
+vendor/lib/mediadrm/libwvdrmengine.so
