@@ -22,3 +22,6 @@ $(call inherit-product, vendor/brcm/rpi-common/rpi-common-vendor.mk)
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := mdpi
 PRODUCT_CHARACTERISTICS := tablet
+
+PRODUCT_COPY_FILES += \
+    $(PLATFORM_PATH)/twrp.usb.fstab:recovery/root/etc/recovery.usb.fstab
