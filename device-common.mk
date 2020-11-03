@@ -24,4 +24,5 @@ PRODUCT_AAPT_PREF_CONFIG := mdpi
 PRODUCT_CHARACTERISTICS := tablet
 
 PRODUCT_COPY_FILES += \
+    $(PLATFORM_PATH)/rpi-recovery.sh:recovery/root/sbin/rpi-recovery.sh \
     $(PLATFORM_PATH)/twrp.usb.fstab:recovery/root/etc/recovery.usb.fstab
