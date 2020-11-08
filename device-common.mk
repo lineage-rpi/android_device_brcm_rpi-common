@@ -26,3 +26,6 @@ PRODUCT_CHARACTERISTICS := tablet
 PRODUCT_COPY_FILES += \
     $(PLATFORM_PATH)/rpi-recovery.sh:recovery/root/sbin/rpi-recovery.sh \
     $(PLATFORM_PATH)/twrp.usb.fstab:recovery/root/etc/recovery.usb.fstab
+
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.build.system_root_image=true
