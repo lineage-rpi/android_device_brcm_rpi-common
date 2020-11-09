@@ -1,0 +1,9 @@
+# Graphics - Android Things
+vendor/lib/hw/gralloc.rpi.so|7cb29428e70c27daf3e428277b30bdbf42a5d8d1
+vendor/lib/hw/hwcomposer.rpi.so|37c60d884f8cee7ebbb08811199d7e1454d7a251
+
+# Widevine - aljeter PPP29.55-25
+vendor/bin/hw/android.hardware.drm@1.1-service.widevine|2c2455a218eb8d5368f1ccd39bea51be8364a0f3
+vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc|5a01d337c1d375ee24a6c8992ba91f54afb7637e
+vendor/lib/mediadrm/libwvdrmengine.so|53ab49eb413c40ec47e6a83a991cc94c88fb2162
+vendor/lib/libwvhidl.so|868d9d7f8b3a89860b4df7c3aa3f22020fae121d
